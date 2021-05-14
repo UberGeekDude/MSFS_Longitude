@@ -27,10 +27,10 @@ The change in the code below:
 	<Else>
 		<If>
 			<Condition>
-			<Equal>
+			**<Equal>**
 				<Simvar name="GEAR POSITION" unit="number"/>
-				<Constant>1</Constant>
-			</Equal>
+				**<Constant>1</Constant>**
+			**</Equal>**
 			</Condition>
 			<Then>DOWN</Then>
 			<Else></Else>
@@ -52,13 +52,13 @@ Correction:
 	<Else>
 		<If>
 			<Condition>
-			<Greater>
+			**<Greater>**
 				<Simvar name="GEAR POSITION" unit="number"/>
-				<Constant>0.9</Constant>
-			</Greater>
+				**<Constant>0.9</Constant>**
+			**</Greater>**
 			</Condition>
 		<Then>DOWN</Then>
-		<Else>UNSAFE</Else>
+		**<Else>UNSAFE</Else>**
 		</If>
 	</Else>
 </If>
@@ -88,9 +88,9 @@ Original for Aileron:
 ```
 Updated:
 ```XML
-<Text>
+**<Text>
 	<Center fontsize="18">AILERON</Center>
-</Text>
+</Text>**
 <Gauge>
 	<Type>Horizontal</Type>							
 	<Style>
@@ -105,8 +105,8 @@ Updated:
 	<Value>
 		<Simvar name="AILERON TRIM PCT" unit="percent"/>
 	</Value>
-	<BeginText>L</BeginText>
-	<EndText>R</EndText>
+	**<BeginText>L</BeginText>
+	<EndText>R</EndText>**
 </Gauge>
 ```
 This looks better, to me, but the issue created with this change is now the Battery Amps is cutoff at the bottom.  The extra text for Aileron and Rudder push the graph down.  I am not sure how to change the column hight for the Aileron and Rudder.  IRL, they are closer together as well as the engine readouts.
