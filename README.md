@@ -102,3 +102,6 @@ Updated:
 This looks better, to me, but the issue is the Battery Amps id cutoff at the bottom.  The extra text for Aileron and Rudder push the graph down.  I am not sure how to change the column hight for the Aileron and Rudder.  IRL, they are compressed together as well as the engine readouts.
 
 Similar code for Rudder.
+
+cessna-longitudefdefixV1.83a_pDW7s.zip is the original file found at the link above.
+cessna-longitudefdefixV1.83b.zip includes my changes as mentioned above.
