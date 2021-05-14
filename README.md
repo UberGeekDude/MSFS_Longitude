@@ -1,10 +1,12 @@
 # MSFS_Longitude
-Modification to MSFS2020 Cessna Longitude
-Made a few minor changes to the Longitude package provided by dakflu-019 on Fligthsim.to.
+Modification to MSFS2020 Cessna Longitude modification project:
+
 
 https://flightsim.to/file/3655/asobo-cessna-citation-longitude-flight-dynamics-modifications-project-version-1-0
 
-A couple things didn't look right to me according to some pictures. This is not perfect, just minor changes/tweaks for the better of the project.
+This release includes a few minor cosmetic changes to the Longitude-G5000 display provided by dakfly0219 on Fligthsim.to.
+
+A couple things didn't look right to me according to some pictures. This is not perfect, either, but a couple minor changes/tweaks for the better of the project.
 
 These changes are based on 1.83a (included)
 
@@ -99,7 +101,7 @@ Updated:
 					<EndText>R</EndText>
 				</Gauge>
 
-This looks better, to me, but the issue is the Battery Amps id cutoff at the bottom.  The extra text for Aileron and Rudder push the graph down.  I am not sure how to change the column hight for the Aileron and Rudder.  IRL, they are compressed together as well as the engine readouts.
+This looks better, to me, but the issue created with this change is now the Battery Amps is cutoff at the bottom.  The extra text for Aileron and Rudder push the graph down.  I am not sure how to change the column hight for the Aileron and Rudder.  IRL, they are closer together as well as the engine readouts.
 
 Similar code for Rudder.
 
